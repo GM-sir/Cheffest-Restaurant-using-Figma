@@ -1,0 +1,1008 @@
+/* ====================
+    Common CSS 
+===================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+:root{
+    --white : white ;
+    --black : black; 
+}
+
+/* ====================
+    CSS for Header Start
+===================== */
+
+.container {
+    margin:  16px  83px 0px  0px;
+    padding-left: 85px;
+    /* height: 116px;*/
+    width: 1440px; 
+     /* width: 1272px; */
+    height: 112px;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    position: absolute;
+   
+}
+.container .nav_bar{
+   
+     display: flex;
+}
+.container .nav_bar ul{
+    display: flex;
+    width: 481px;
+    height: 52px;
+    /* padding: 27px 0px 21px 0px; */
+    
+    /* border: 2px solid red; */
+     justify-content: space-between;
+    align-items: center;
+    margin: 27px 300px 21px 298px;
+}
+.container .nav_bar ul a{
+    color: var(--white);
+    gap: 6px;
+    padding: 16px 18px 16px 18px;
+    line-height: 20px;
+    font-weight: medium;
+    font-size: 18px;
+}
+.container .nav_bar .logo{
+    height: 99.92px;
+    width: 100px;
+    word-spacing: 8px;
+}
+
+.container .nav_bar .small_logo{
+    width: 92.33px;
+    height: 34px;
+    gap: 30px;
+    display: flex;
+    margin: 31px 0 35px;
+}
+
+/* ====================
+            END
+===================== */
+
+
+/* ===============================
+    CSS for Banner Section Start
+================================= */
+
+.banner{
+    background-image: url(image/Top\ Section.png ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 912px;
+   
+
+}
+.banner .chap{
+    width: 1440px;
+    height: 800px;
+    background-image: url(image/image.svg);
+    margin-top: 113px;
+    position: absolute;
+   
+}
+.banner_text {
+    width: 652px;
+    height: 466;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin: 88px 653px 294px 135px;
+    /* color: var(--black); */
+}
+.banner_text .heading {
+    width: 652px;
+    height: 288px;
+    line-height: 96px;
+    font-size: 66px;
+    font-weight:  900;
+    margin-bottom: 10px;
+    /* border: 2px solid black; */
+    text-box-trim: both;
+    
+}
+.banner_text .small_heading{
+    width: 510px;
+    height: 60px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;  
+     /* border: 2px solid bisque; */
+
+    
+}
+.banner_text .buttons{
+    width: 212px;
+    height: 68px;
+    padding: 20px 50px 20px 50px;
+    background: var(--white);
+    border-radius: 40px;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.banner_text .buttons button{
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 18px;
+    width: 112px;
+    height: 28px;
+    background: var(--white);
+    border: none;
+}
+/* ===============================
+            END
+================================== */
+
+
+
+/* ===============================
+    CSS for video Section Start
+================================= */
+#video_section{
+    height: 946px;
+    width: 1440px;
+   /* border: 5px red solid; */
+    background: var(--black);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+   
+
+.video_container {
+    height: 646px;
+    width: 1170px;
+    margin: 150px 135px 0px 135px;
+     /* border: 5px red solid; */
+     position: absolute;
+     color: var(--white);
+}
+.video_container .head {
+    height: 146px;
+    width: 820px;
+    
+    text-align: center;
+    justify-content: center;
+    /* position: absolute; */
+   /* border: 5px red solid; */
+   margin: 0px 175px 0px 175px;
+
+}
+
+.video_container .head h2 {
+    font-size: 50px;
+    font-weight: 700;
+    width: 713px;
+    height: 70px;
+    line-height: 70px;
+    /* border: 5px red solid; */
+   color: var(--white);
+    margin: 0px 53.5px 0px 53.5px;
+
+
+}
+.video_container .head p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 820px;
+    height: 60px;
+    line-height: 30px;
+    /* border: 5px green solid; */
+    color: var(--white);
+    margin-top: 16px;
+}
+.video_container .video_body {
+    height: 430px;
+    width: 1170px;
+    display: flex;
+    margin-top: 70px;
+    gap: 87px;
+}
+
+.video_container .video_body .video_text {
+    width: 513px;
+    height: 430px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: left;
+}
+/* ===============================
+            END
+================================== */
+
+/* ===============================
+    CSS for Item Section Start
+================================= */
+
+
+#Item_section{
+    height: 1308px;
+    width: 1440px;
+    background: var(--black);
+    list-style: none;
+    
+    
+}
+.item_container{
+    margin: 0px 135px 0px 135px;
+}
+.item_container .heads{
+    height: 156px;
+    width: 1170px;
+    text-align: center;
+}
+.item_container .heads .headss h2{
+     font-size: 50px;
+    font-weight: 600;
+    width: 770px;
+    height: 70px;
+    line-height: 70px;
+     /* border: 5px red solid;  */
+   color: var(--white);
+    margin: 0px 200px 0px 200px;
+}
+.item_container .heads .items{
+    width: 1170px;
+    height: 46px;
+    
+    margin-top: 40px;
+    /* border: 5px red solid;  */
+    /* position: absolute; */
+
+}
+.item_container .heads .items ul{
+    display: flex;
+     justify-content: space-between;
+}
+.item_container .heads .items ul button{
+    background: transparent;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    gap: 104px;
+   cursor: pointer;
+   border-bottom: 3px solid transparent;
+   border-radius: 10px;
+
+}
+.item_container .heads .items ul button:hover{
+    border-bottom: 3px solid var(--white);
+}
+.item_container .box_items{
+    height: 924px;
+    width: 1170px;
+    margin-top: 80px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.item_container .box_items .box{
+    height: 442px;
+    width: 370px;
+    /* padding: 20px 20px 20px 20px; */
+    background-color: #191919 ;
+    border-radius: 12px;
+}
+.item_container .box_items .box .pic{
+    padding: 20px 20px 20px 20px;
+}
+.item_container .box_items .box .pics_text{
+    padding: 0px 20px 20px 20px;
+    text-align: left;
+    width: 330px;
+
+}
+.item_container .box_items .box .pics_text .pic_text{
+    font-weight: 700;
+    line-height: 34px;
+    font-size: 24px;
+}
+.item_container .box_items .box .pics_text .pic_para{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+    opacity: 70%;
+}
+.item_container .box_items .box .pics_text .doler{
+    display: flex;
+     margin-top: 10px;
+}
+.item_container .box_items .box .pics_text .doler span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+   
+}
+.item_container .box_items .box .pics_text .doler .cart {
+    margin-left: 210px;
+    /* border:  2px solid var(--white) ; */
+
+
+}
+.item_container .see_all{
+    width: 168px;
+    height: 68px;
+    padding: 20px 54px 20px 54px;
+    background: var(--white);
+    border-radius: 40px;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 80px 501px 0px 501px;
+}
+
+ .item_container .see_all button{
+    width: 60px;
+    height: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 18px;
+    background: var(--white);
+    border: none;
+    
+ }
+/* ===============================
+            End
+================================= */
+
+/* ===============================
+    CSS for Percentage Section Start
+================================= */
+#Percentage{
+    height: 438px;
+    width: 1440px;
+    background-color: var(--black);
+    text-align: center;
+    border: 1px solid black; 
+}
+.percentage_container{
+    width: 1440px;
+    height: 288px;
+   
+    margin-top: 150px;
+    /* margin-bottom: 150px; */
+     /* border: 5px solid red; */
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+     
+}
+.percentage_container .per_head{
+    width: 711px;
+    height: 60px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 30px 321px 60px 321px;
+}
+.percentage_container .percentages{
+    width: 1170px;
+    height: 108px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 0px 135px 30px 135px;
+     /* border: 5px solid red; */
+   
+   
+}
+.percentage_container .percentages .per_box{
+    height: 108px;
+    width: 270px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+
+}
+.percentage_container .percentages .per_box .per1{
+    width: 270px;
+    height: 66px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66px;
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.percentage_container  .percentages .per_box .per2{
+    width: 270px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/* ===============================
+            End
+================================= */
+
+
+/* ===============================
+    CSS for Franchise Section Start
+================================= */
+#franchise{
+    width: 1440px;
+    height: 588px;
+    background-color: var(--black) ;
+    position: relative;
+
+}
+.franchise_container{
+    height: 438px;
+    width: 1170px;
+    padding: 150px 135px 0px 135px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.franchise_container .fran_head{
+    width: 911px;
+    height: 140px;
+    line-height: 70px;
+    font-size: 50px;
+    font-weight: 600;
+       text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 129.5px 20px 129.5px ;
+}
+.franchise_container .fran_text{
+    height: 150px;
+    width: 1170px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+       text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.franchise_container .fran_btn{
+     width: 294px;
+    height: 68px;
+    padding: 20px 54px 20px 54px;
+    background: var(--white);
+    border-radius: 40px;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px 438px 0 438px;
+    
+}
+.franchise_container .fran_btn button{
+     font-weight: 600;
+    line-height: 28px;
+    font-size: 18px;
+    width: 186px;
+    height: 28px;
+    background: var(--white);
+    border: none;
+}
+
+/* ===============================
+                End
+================================= */
+
+
+
+/* ===============================
+    CSS for Franchise Section Start
+================================= */
+#review{
+    width: 1440px;
+    height: 1231px;
+    padding: 150px 135px 150px 135px;
+    background-color: var(--black);
+}
+.review_container  {
+    width: 1170px;
+    height: 931px;
+    gap: 70px;
+}
+.review_container  .review_head{
+    width: 773px;
+    height: 70;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 198.5px 70px 198.5px;
+}
+.review_container .review_body {
+    height: 791px;
+    width: 1170px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.review_container .review_card {
+    width: 370px;
+    height: 371px;
+    gap: 30px;
+    padding: 30px 30px 30px 30px;
+    background-color: #191919;
+    border-radius: 16px;
+    
+}
+.review_container .review_card .card_head{
+    width: 232px;
+    height: 113px;
+    gap: 20px;
+    /* border: 2px solid red; */
+}
+.review_container .review_card .card_head .card_line{
+
+    width: 214px;
+    height: 19px;
+    
+    margin: 20px 18px 0 0;
+    display: flex;
+    /* border: 2px solid red; */
+
+
+}
+.review_container .review_card .card_head .img2{
+    left: -5px;
+     height: 2px; 
+     width: 180px;
+     margin-top: 11px;
+}
+
+.review_container .review_card .card_head .card_profile{
+    width: 232px;
+    height: 74px;
+    gap: 20px;
+    display: flex;
+    /* margin: 30px 108px 30px 30px; */
+    gap: 12px;
+    
+}
+.review_container .review_card .card_head .card_profile .profile_text {
+    height: 70px;
+    width: 146px;
+    gap: 8;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+}   
+.review_container  .review_card .card_head .card_profile .profile_text .name{
+    width: 128px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-right: 18px;
+    
+}
+.review_container  .review_card .card_head .card_profile .profile_text .bio{
+    width: 146px;
+    height: 22px;
+    opacity: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    
+}
+.review_container   .review_card .card_head .card_profile .profile_text .star{
+    width: 82px;
+    height: 12px;
+    /* gap: 3px; */
+
+    
+}
+.review_container  .card_text{
+    width: 310px;
+    height: 168px;
+    opacity: 70%;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    /* margin: 0 30px 30px 30px; */
+    margin-top: 30px;
+
+    /* border: 2px solid red; */
+    
+}
+
+/* ===============================
+                End
+================================= */
+
+
+/* ===============================
+    CSS for Support Section Start
+================================= */
+ #support{
+        height: 368px;
+        width: 1440px;
+        gap: 50px;
+        padding: 80px 346px 80px 346px;
+        background-color: var(--white);
+        
+ }
+.support_container{
+    width: 748px;
+    height: 208px;
+    color: var(--black);
+}
+.support_container .support_head{
+    width: 680px;
+    height: 90px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+    color: var(--black);
+    margin: 0 34px 50px 34px;
+}
+.support_container .support_body{
+    width: 748px;
+    height: 68px;
+    gap: 20px;
+    display: flex;
+}
+.support_container .support_body .support_form {
+    width: 530px;
+    height: 68px;
+    /* padding: ; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.support_container .support_body .support_form form{
+    max-width: 748px;
+    margin: 12px auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /* gap: 20px; */
+
+}
+.support_container .support_body .support_form form input{
+     background: transparent;
+    border: 1px solid var(--black);
+    border-radius: 1000px;
+    padding: 15px 0 15px 70px;
+
+}
+.support_container .support_body .support_subscribe {
+    width: 198px;
+    height: 68px;
+    padding: 20px 54px 20px 54px;
+    background-color: var(--black);
+    border-radius: 40px;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 40px; */
+}
+.support_container .support_body .support_subscribe button{
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 18px;
+    width: 90px;
+    height: 28px;
+    background-color: var(--black);
+    border: none;
+    color: var(--black);
+}
+/* ===============================
+                End
+================================= */
+
+
+/* ===============================
+    CSS for Support Section Start
+================================= */
+
+#map{
+    height: 770px;
+    width: 1440px;
+    background-color: var(--black);
+     padding: 150px 135px 150px 135px;
+}
+.map_container {
+    width: 1170px;
+    height: 470px;
+    gap: 145px;
+    display: flex;
+    /* border: 5px solid blue; */
+   
+
+
+}
+.map_container .map_text{
+    width: 542px;
+    height: 384px;
+    margin: 43px 0 43px 0;
+
+}
+.map_container .map_text .map_head{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    width: 542px;
+    height: 140px;
+    text-align: left;
+}
+.map_container .map_text .map_para{
+    margin-top: 16px;
+    width: 542px;
+    height: 90px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: left;
+    /* border:  5px solid red; */
+
+}
+.map_container .map_text .map_btn{
+   
+    width: 337px;
+    height: 68px;
+    padding: 20px 54px 20px 54px;
+    background: var(--white);
+    border-radius: 40px;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.map_container .map_text .map_btn button{
+     font-weight: 600;
+    line-height: 28px;
+    font-size: 18px;
+    width: 229px;
+    height: 28px;
+    background: var(--white);
+    border: none;
+}
+
+.map_container .map_text .map_location iframe{
+    height: 470px;
+    width: 583px;
+    border-radius: 12px;
+
+}
+
+/* ===============================
+                End
+================================= */
+
+
+
+/* ===============================
+    CSS for Support Section Start
+================================= */
+#footer{
+    height: 516px;
+    width: 1440px;
+   
+    padding: 80px 135px 80px 135px;
+    background-color: #191919;
+}
+.footer_container{
+    height: 356px;
+    width: 1170PX;
+    gap: 100px;
+}
+.footer_container .footer_head{
+    width: 1170px;
+    height: 198px;
+    gap: 103px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+/* =================Part1============ */
+.footer_container .footer_head .part1{
+    height: 198px;
+    width: 154px;
+    
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    /* border: 2px solid red; */
+}
+
+.footer_container .footer_head .part1 .head_part{
+    width: 154px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+.footer_container .footer_head .part1 .body_part{
+    width: 148px;
+    height: 144px;
+}
+ /* .footer_container .footer_head .part1 .body_part .body_box{ 
+     width: 93px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px; 
+    
+ }  */
+.footer_container .footer_head .part1 .body_part a{
+    margin-bottom: 24px;
+    
+    
+}
+/* =================Part2============ */
+.footer_container .footer_head .part2{
+    height: 72px;
+    width: 196px;
+    
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    /* border: 2px solid red; */
+}
+
+.footer_container .footer_head .part2 .head_part{
+    width: 195px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+.footer_container .footer_head .part2 .body_part{
+    width: 148px;
+    height: 144px;
+
+}
+/* .footer_container .footer_head .part2 .body_part .body_box{ */
+        /* width: 93px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px; */
+    
+/* } */
+.footer_container .footer_head .part2 .body_part a{
+    margin-bottom: 24px;
+   
+}
+/* =================Part3============ */
+.footer_container .footer_head .part3{
+    height: 156px;
+    width: 301px;
+    
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    /* border: 2px solid red; */
+}
+
+.footer_container .footer_head .part3 .head_part{
+    width: 127px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+.footer_container .footer_head .part3 .body_part{
+    width: 301px;
+    height: 144px;
+}
+/* .footer_container .footer_head .part3 .body_part .body_box{ */
+     /* width: 93px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px; */
+    
+/* } */
+.footer_container .footer_head .part3 .body_part a{
+    margin-bottom: 24px;
+}
+
+/* ============Part4======== */
+.footer_container .footer_head .part4{
+    height: 174.32px;
+    width: 210px;
+    
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    /* border: 2px solid red; */
+}
+.footer_container .footer_head .part4 .head_part{
+    width: 127px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+.footer_container .footer_head .part4 .body_part{
+    width: 210px;
+    height: 120.32px;
+    gap: 30px;
+}
+.footer_container .footer_head .part4 .body_part .visas{
+    display: flex;
+    width: 210px;
+    height: 40.32px;
+    gap:20px;
+}
+.footer_container .footer_body{
+    width: 1170px;
+    height: 58px;
+    padding-top: 28px;
+    display: flex;
+    border-top: 2px solid #4F4F4F;
+    margin-top: 100px;
+    gap: auto;
+
+}
+.footer_container .footer_body .footer_icons{
+    display: flex;
+    width: 1170px;
+    height: 30px;
+    gap: 20px;
+}
+.footer_container .footer_body .footer_rights{
+    width: 386px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+/* ===============================
+                End
+================================= */
